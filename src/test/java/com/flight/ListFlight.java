@@ -17,7 +17,7 @@ public static void main(String[] args) throws IOException, ParseException {
 	
 	//2. Create the object for Jsonparser class
 			JSONParser jsonparser = new JSONParser();
-			
+			System.out.println();
 			//3. pass the JSON file To fetch value 
 			
 			Object obj = jsonparser.parse(filereader);
